@@ -9,9 +9,138 @@
 
 :root {
     font-size: 62.5%;
+}
+
+header, nav, form, h1, h2, p {
     font-family: 'Mulish', sans-serif;
 }
 
 body {
     font-size: 1.6rem;
+    background: #FFF;   
+}
+
+#app {
+    width: 43rem;
+
+    margin-inline: auto;
+
+    box-sizing: content-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #065E7C;
+    height: 7.2rem;
+    padding: 1.2rem 2.8rem;
+    gap: 2.6rem;
+    font-weight: 600;
+}
+
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.input-wrapper input {
+    border: 0;
+    padding: 12px 15px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.20);
+    font-size: 1.6rem;
+}
+
+.input-wrapper input::placeholder {
+    color: #FFF;
+    opacity: .75;
+}
+
+.logo {
+    margin-left: 2.8rem;
+    margin-right: 2.6rem;
+}
+
+
+.avatar {
+    height: 4.2rem;
+    width: 4.2rem;
+    
+    object-fit: cover;
+    
+    border-radius: 50%;
+    margin-left: 2.6rem;
+    margin-right: 2.8rem;
+}
+
+.input-wrapper label {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+main {
+    margin-top: 3.1rem;
+    padding: 0 2.2rem;
+}
+
+main h1 {
+    color:#202024;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.buttons {
+    margin: .8rem auto 3.1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+}
+
+main p {
+    color: #121214;
+    font-weight: 400;
+    line-height: 160%;
+   
+
+    width: 382px;
+}
+
+aside {
+    margin-top: 3.4rem;
+    padding: 0 2.2rem;
+}
+
+aside h1 {
+    color: #202024;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.container {
+    margin: 3.2rem auto 0;
+}
+
+footer {
+    background: #387E96;
+    display: flex;
+    height: 64px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer p {
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
 }
