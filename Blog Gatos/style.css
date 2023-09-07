@@ -172,22 +172,3 @@ footer p {
     text-align: center;
     font-weight: 600;
 }
-
-@media (min-width: 768px) {
-    body {
-        flex-direction: row;
-        max-width: fit-content;
-    }
-
-    header {
-        display: flex;
-        width: 1440px;
-        height: 72px;
-        padding: 12px 112px;
-    }
-
-    header nav {
-        justify-content: space-between;
-        align-items: center;
-    }
-}
