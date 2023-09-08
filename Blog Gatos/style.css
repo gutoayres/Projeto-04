@@ -20,7 +20,7 @@ body {
     background: #FFF;   
 }
 
-#app {
+.app {
     width: 43rem;
 
     margin-inline: auto;
